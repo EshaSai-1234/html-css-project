@@ -1,0 +1,87 @@
+#html-css project
+.loader{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid yellow;
+    border-top: 20px solid blue;
+    animation: spinAnimate 2s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+*{
+    text-align: centre;
+}
+#mainTopic{
+    color: blue;
+}
+h1,
+h3,
+h5{
+    font-family: Georgia;
+}
+.content{
+    background-color: cornflowerblue;
+    color: white;
+}
+div button{
+    background-color: purple;
+    color: azure;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+p:nth-of-type(2n+1){
+color:yellow;
+}
+h1::first-letter{
+    color:red;
+}
+#yes:checked + label{
+    color: darkgreen;
+}
+p{
+    color: brown;
+    text-align: centre;
+    line-height: 30px;
+}
+
+h1{
+    text-align: centre;
+    color: red;
+    font-family: Georgia;
+}
+
+h3{
+    text-align: centre;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+button{
+    background-color: white;
+    color: blueviolet;
+}
+
+textarea{
+    color: black;
+}
+
+span{
+    text-decoration: underline;
+}
+
